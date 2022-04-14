@@ -1,0 +1,54 @@
+.how-section {
+  background-color: #000;
+  padding: 5.2rem 0;
+}
+
+.how-section-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+
+  max-width: 136rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.how-section__text-content,
+.how-img__box {
+  padding: 0 3.2rem;
+}
+
+.how-img__box img {
+  width: 100%;
+}
+
+.how-section__text-content h2 {
+  color: #fff;
+  font-size: 4.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.how-section__text-content p {
+  color: #fff;
+  line-height: 1.4;
+  font-size: 2.4rem;
+}
+
+@media (max-width: 59em) {
+  .how-section-grid {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* grid-template-columns: 1fr 1fr; */
+    /* gap: 4rem; */
+    max-width: 136rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+  }
+  .kids,
+  .mobile {
+    flex-direction: column-reverse;
+  }
+}

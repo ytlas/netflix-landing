@@ -1,0 +1,127 @@
+.hero-section {
+  position: relative;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/0bd3a69d-6790-4edc-9818-1c8c558946c2/b07c147f-91a2-4d0f-b2fc-1f282c531256/US-en-20220329-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 96rem;
+}
+
+.hero-content {
+  padding: 0 4.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.hero-content__text {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  max-width: 88rem;
+  margin: 0 auto;
+}
+
+.hero-content__text h1 {
+  font-size: 6.4rem;
+  font-weight: 600;
+}
+
+.hero-content__text h3 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin: 3.2rem 0;
+}
+
+.hero-content__field {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content__field input {
+  font-size: 2rem;
+  padding: 2.9rem 2.4rem;
+  width: 100%;
+}
+
+.container--hero-cta {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.hero-content__field button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2.4rem 4.8rem;
+  color: #fff;
+  font-size: 3.2rem;
+}
+
+.hero-content__field div {
+  display: flex;
+}
+
+.hero-content__field label {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.cta {
+  display: block;
+  width: 100%;
+}
+
+.container--input {
+  max-width: 100rem;
+}
+
+/* 944 PX */
+@media (max-width: 59em) {
+  .cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .hero-content__field button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.6rem 3.2rem;
+    color: #fff;
+    font-size: 2rem;
+  }
+}
+
+/* 560 PX */
+@media (max-width: 35em) {
+  .hero-content__text h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  .hero-content__text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

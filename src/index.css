@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 50em) {
+  html {
+    font-size: 47%;
+  }
+}
+
+@media (max-width: 30em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.bg-primary {
+  background-color: #db0000;
+}
+
+.col-primary {
+  color: #db0000;
+}
+
+.col-medium-grey {
+  color: rgb(107, 107, 107);
+}
+
+.col-light {
+  color: #fff;
+}
+
+.inset-shadow-light {
+  box-shadow: inset 0 0 0 1px #fff;
+}
+
+.inset-shadow-grey {
+  box-shadow: inset 0 0 0 1px rgb(107, 107, 107);
+}
+
+/* PALETTE */
+/*
+#db0000
+#212529
+#343A40
+*/
+
+/* BACKGROUND IMAGE */
+/* https://assets.nflxext.com/ffe/siteui/vlv3/0bd3a69d-6790-4edc-9818-1c8c558946c2/b07c147f-91a2-4d0f-b2fc-1f282c531256/US-en-20220329-popsignuptwoweeks-perspective_alpha_website_large.jpg */
+
+/* LOGO */
+/* https://i.ibb.co/r5krrdz/logo.png */
+
+/* TV */
+/* https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png */
+
+/* MOBILE PHONE */
+/* https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg */
+
+/* DEKTOP TABLET AND IPHONE PNG */
+/* https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png */
+
+/* KIDS */
+/* https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/kidsValueProp.png */

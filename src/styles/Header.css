@@ -1,0 +1,54 @@
+.header-container {
+  margin: 0 auto;
+  max-width: 220rem;
+}
+
+.header {
+  padding: 3.2rem 3.2rem;
+  margin: 0 auto;
+  max-width: 220rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.select-box {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+.select-box:focus {
+  border: none;
+}
+
+.logo {
+  height: 4.8rem;
+}
+
+.header__buttons {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.btn--sign-in {
+  border: none;
+  color: #fff;
+  padding: 1.1rem 2.2rem;
+  border-radius: 6px;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.language-option {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 1.1rem 2.2rem;
+  font-size: 1.8rem;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
